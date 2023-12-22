@@ -39,42 +39,57 @@ import {
 } from "./styles";
 
 const Footer = () => {
+  // Función para volver al principio de la página
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <Wrapper>
       <Inner>
-        <FooterLogo>
-          <Image
-            className="mt-10"
-            width={125}
-            src={BiblioFeLogotype}
-            alt="Biblio Fe Logotype"
-          />
-        </FooterLogo>
         <FooterMainContent>
           <FooterMiddle>
+            <div className="mx-auto lg:m-0">
+              <Image
+                className="mt-10"
+                width={125}
+                src={BiblioFeLogotype}
+                alt="Biblio Fe Logotype"
+              />
+            </div>
             <QRContainer>
               <TextCtn>
-                <p>Scan to download App on the Playstore and Appstore.</p>
-                <IconCtn>
-                  <Image src={ic_google_playstore} alt="playstore icon" />
-                  <Image src={ic_baseline_apple} alt="apple icon" />
+                <p className="text-center">
+                  Pronto Biblio Fe estará en la Apple Store y Play Store.
+                </p>
+                <IconCtn className="flex mx-auto">
+                  <Image
+                    src={ic_google_playstore}
+                    width={45}
+                    alt="playstore icon"
+                  />
+                  <Image src={ic_baseline_apple} height={45} alt="apple icon" />
                 </IconCtn>
               </TextCtn>
             </QRContainer>
           </FooterMiddle>
           <FooterBottom>
-            <Translator>
-              <h3>Contruido por y para Cristianos Radicales</h3>
-              <Image
-                src={ic_chevron_down}
-                className="rotate-180"
-                alt="chevron down"
-              />
-            </Translator>
-            <CopyRight>
-              <Image src={ic_copyright} alt="copyright svg" />
-              Biblio Fe - Todos los derechos reservados 2023
-            </CopyRight>
+            <div
+              className="flex flex-col text-2xl lg:flex-row items-center w-full justify-between cursor-pointer"
+              onClick={scrollToTop}
+            >
+              <Translator>
+                <h3>Contruido por y para Cristianos Radicales</h3>
+                <Image
+                  src={ic_chevron_down}
+                  className="rotate-180"
+                  alt="chevron down"
+                />
+              </Translator>
+              <CopyRight>
+                <Image src={ic_copyright} alt="copyright svg" />
+                Biblio Fe - Todos los derechos reservados 2023
+              </CopyRight>
+            </div>
           </FooterBottom>
         </FooterMainContent>
       </Inner>

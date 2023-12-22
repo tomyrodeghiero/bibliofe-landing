@@ -4,12 +4,14 @@ import card_grid from "../../../../public/images/card_grid.png";
 
 export const Wrapper = styled.section`
   padding-top: 7.75rem;
+  color: black;
 `;
 
 export const Inner = styled.div`
   width: 90%;
   max-width: 1440px;
   margin: 0 auto;
+  color: black;
 `;
 
 export const Header = styled.header`
@@ -22,6 +24,7 @@ export const Header = styled.header`
   h1 {
     font-size: 4.75rem;
     font-weight: 400;
+    color: black;
   }
 
   p {
@@ -124,6 +127,7 @@ export const Stats = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: black;
 
   @media (max-width: 768px) {
     margin: 3.75rem auto;
@@ -140,6 +144,7 @@ export const Stat = styled.div`
   h1 {
     font-size: 4rem;
     font-weight: 600;
+    color: black;
   }
 
   p {

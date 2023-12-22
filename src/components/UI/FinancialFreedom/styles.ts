@@ -34,6 +34,7 @@ export const Header = styled.header`
   h1 {
     font-size: 4.75rem;
     font-weight: 400;
+    color: black;
   }
 
   p {
@@ -117,6 +118,7 @@ export const Title = styled.div`
 export const BriefNote = styled.div`
   padding: 2rem 8.5rem;
   background: #222c57;
+  color: white;
 
   p {
     color: var(--Background, #070606);

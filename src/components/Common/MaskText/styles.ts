@@ -3,7 +3,6 @@ import { styled } from "styled-components";
 
 export const Body = styled.div`
   h1 {
-    color: black;
   }
   ,
   p {

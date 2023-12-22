@@ -15,6 +15,7 @@ export const Inner = styled.div`
   display: flex;
   flex-direction: column;
   gap: 6.25rem;
+  color: white;
 
   h1 {
     max-width: 56rem;

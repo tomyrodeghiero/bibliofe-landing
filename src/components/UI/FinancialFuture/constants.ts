@@ -2,15 +2,15 @@ import ic_money_send from "../../../../public/svgs/ic_money_send.svg";
 import ic_wallet_minus from "../../../../public/svgs/ic_wallet_minus.svg";
 export const cardsInfo = [
   {
-    title: "Spend Better",
+    title: "Comparte Libros",
     details:
-      "Set and achieve financial goals with ease, automate your savings, and watch your money grow without the stress.",
+      "Comparte libros Cristianos con facilidad, únete a nuestra comunidad y ayuda a nutrir la fe y el crecimiento espiritual de otros.",
     icon: ic_money_send,
   },
   {
-    title: "Invest Better",
+    title: "Explora y Comparte",
     details:
-      "Set and achieve financial goals with ease, automate your savings, and watch your money grow without the stress.",
+      "Descubre una amplia selección de libros Cristianos y comparte tus favoritos con la comunidad. Juntos fortalecemos nuestra fe.",
     icon: ic_wallet_minus,
   },
 ];
@@ -36,22 +36,21 @@ export const stats = [
 
 // For desktop
 export const desktopHeaderPhrase = [
-  "Confidently Shape Your",
-  "Financial Future",
+  "Comparte con Confianza",
+  " Libros Cristianos",
 ];
 export const desktopParagraphPhrase = [
-  "At, we empower you to confidently shape your financial future. Our modern",
-  "approach simplifies saving and investing, making it easier than ever.",
+  "En Biblio Fe, te animamos a compartir libros Cristianos con facilidad y a unirte a nuestra comunidad para nutrir la fe y el crecimiento espiritual de otros.",
+  "Descubre una amplia selección de libros Cristianos y comparte tus favoritos. Juntos fortalecemos nuestra fe.",
 ];
 
-// For mobile
-export const mobileHeaderPhrase = [
-  "Confidently Shape",
-  " Your Financial Future",
-];
+// Para móviles
+export const mobileHeaderPhrase = ["Comparte Libros", " Cristianos"];
 export const mobileParagraphPhrase = [
-  "At, we empower you to confidently shape",
-  "your financial future. Our modern approach",
-  "simplifies saving and investing, making it easier",
-  "than ever.",
+  "En Biblio Fe, te animamos a compartir libros Cristianos con facilidad y a unirte a nuestra comunidad para nutrir la fe y el crecimiento espiritual de otros.",
+  "Descubre una amplia selección de libros Cristianos y comparte tus favoritos. Juntos fortalecemos nuestra fe.",
 ];
+
+// Texto de descripción de Biblio Fe
+export const biblioFeDescription =
+  "Encuentra y explora una amplia selección de libros Cristianos enfocados en la sana doctrina. Biblio Fe es tu destino en línea para descubrir literatura que nutre tu fe y crecimiento espiritual.";
