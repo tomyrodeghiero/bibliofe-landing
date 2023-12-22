@@ -1,7 +1,5 @@
 import { StaticImageData } from "next/image";
 import robert_fox from "../../../../public/images/robert_fox.png";
-import cameron_williamson from "../../../../public/images/cameron_williamson.png";
-import esther_howard from "../../../../public/images/esther_howard.png";
 
 export type Props = {
   testimony: string;
@@ -20,19 +18,16 @@ export const testimonials = [
     testimony:
       "I can't express how grateful. Their wealth management services have been a game-changer for my family's financial security. The expert guidance and personalized strategies have given us peace of mind, knowing that our future is in capable hands.",
     person: "Cameron Williamson",
-    avatar: cameron_williamson,
   },
   {
     testimony:
       "financial planning services have been a lifeline for me. I always struggled with managing my money, but their team a tailored plan that addressed my goals and concerns. It's been a game-changer in achieving my financial dreams",
     person: "Esther Howard",
-    avatar: esther_howard,
   },
   {
     testimony:
       "I can't express how grateful. Their wealth management services have been a game-changer for my family's financial security. The expert guidance and personalized strategies have given us peace of mind, knowing that our future is in capable hands.",
     person: "Cameron Williamson",
-    avatar: cameron_williamson,
   },
   {
     testimony:
