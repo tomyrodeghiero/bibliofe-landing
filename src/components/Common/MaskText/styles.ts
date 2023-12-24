@@ -6,7 +6,12 @@ export const Body = styled.div`
   }
   ,
   p {
-    color: #a0a0a0;
+    color: #333333;
+  }
+  ,
+  h5 {
+    color: white;
+    font-size: 3rem;
   }
 `;
 

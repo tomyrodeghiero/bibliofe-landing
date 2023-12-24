@@ -2,7 +2,7 @@
 import { styled } from "styled-components";
 
 export const Wrapper = styled.section`
-  margin-top: 3.5rem;
+  margin-top: 1.25rem;
 
   @media (max-width: 768px) {
     margint-top: 0rem;
@@ -12,13 +12,13 @@ export const Wrapper = styled.section`
 export const Inner = styled.div`
   width: 90%;
   max-width: 1440px;
-  margin: 0 auto 5.25rem;
+  margin: 0 auto 2.25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   @media (max-width: 768px) {
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
   }
 `;
 
@@ -27,9 +27,10 @@ export const Header = styled.header`
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-  max-width: 56rem;
-  margin: 0 auto 7.75rem;
+  max-width: 45rem;
+  margin: 0 auto 2.75rem;
   text-align: center;
+  color: white;
 
   h1 {
     font-size: 4.75rem;
@@ -46,7 +47,7 @@ export const Header = styled.header`
   }
 
   @media (max-width: 768px) {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 
     h1 {
       font-size: 2.25rem;
@@ -60,11 +61,11 @@ export const Header = styled.header`
 `;
 
 export const BannerCtn = styled.div`
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
   width: 100%;
   position: relative;
   width: 100%;
-  height: 38.4375rem;
+  height: 30.4375rem;
   overflow: hidden;
   border-radius: 0.75rem;
 
@@ -96,7 +97,6 @@ export const Edge = styled.div`
 
   p {
     max-width: 26rem;
-    color: var(--link-color);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -112,6 +112,7 @@ export const Title = styled.div`
   h3 {
     font-size: 1.5rem;
     font-weight: 500;
+    color: #222c57;
   }
 `;
 

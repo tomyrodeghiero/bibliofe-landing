@@ -2,53 +2,48 @@ import ic_banknotes from "../../../../public/svgs/ic_banknotes.svg";
 import ic_circle_stack from "../../../../public/svgs/ic_circle_stack.svg";
 import ic_arrows_left_right from "../../../../public/svgs/ic_arrows_right_left.svg";
 
-export const desktopHeaderPhrase = ["Conoce a Jesús,", "Profundiza tu Fe"];
+export const desktopHeaderPhrase = ["Descubre Jesús, Transforma tu Vida"];
 export const desktopParagraphPhrase = [
-  "Creemos que conocer a Jesús es un camino transformador y accesible para todos.",
-  "Por eso te ofrecemos recursos para profundizar en tu fe.",
+  "Creemos que el camino hacia Jesús es una jornada llena de descubrimientos y accesible para todos.",
+  "Te ofrecemos una rica variedad de recursos para que profundices en tu fe y crecimiento espiritual.",
 ];
 export const desktopBriefNotePhrase = [
-  "Literatura desafiante,",
-  "enseñanzas profundas y",
-  "guía experta, todo en",
-  "un solo lugar.",
+  "Una Biblioteca desafiante,",
+  "con Sana Doctrina, ",
+  "todo en un lugar único.",
 ];
 
 // For mobile
-export const mobileHeaderPhrase = ["Conoce a Jesús", "Profundiza tu Fe"];
+export const mobileHeaderPhrase = ["Descubre Jesús, Transforma tu Vida"];
 export const mobileParagraphPhrase = [
-  "Creemos que conocer a Jesús es un camino",
-  "transformador y accesible. Por eso te ofrecemos",
-  "recursos para profundizar en tu fe.",
+  "Creemos que el camino hacia Jesús es una",
+  "jornada llena de descubrimientos. Te ofrecemos",
+  "recursos variados para una fe más profunda.",
 ];
 
 export const mobileBriefNotePhrase = [
-  "Literatura",
-  " desafiante,",
-  "enseñanzas",
-  " profundas,",
-  "y guía",
-  "experta, todo",
-  "en un lugar.",
+  "Una Biblioteca desafiante ",
+  "con Sana Doctrina, ",
+  "todo en un lugar único.",
 ];
 
 export const edges = [
   {
-    point: "Sin barreras para aprender",
+    point: "Acceso Gratis y Directo a la Sabiduría",
     details:
-      "Olvídate de las barreras para conocer más de Jesús. Acceso directo a recursos sin cargos ocultos.",
+      "Descubre un camino sin barreras para conocer más de Jesús. Recursos completos sin costos ocultos.",
     icon: ic_banknotes,
   },
   {
-    point: "Sin límites en la profundización",
+    point: "Libertad para Profundizar en la Fe",
     details:
-      "Profundiza en tu fe sin límites. Explora una amplia gama de literatura sin preocuparte por restricciones.",
+      "Explora las profundidades de tu fe sin restricciones. Una amplia gama de literatura te espera.",
     icon: ic_circle_stack,
   },
   {
-    point: "Intercambio de conocimiento libre",
+    point: "Compartiendo Conocimiento con Libertad",
     details:
-      "Intercambia conocimientos y experiencias sin costo adicional. Comparte y recibe sabiduría libremente.",
+      "Intercambia sabiduría y experiencias sin limitaciones. Comparte y enriquece tu fe con otros.",
     icon: ic_arrows_left_right,
   },
 ];

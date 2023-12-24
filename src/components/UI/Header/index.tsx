@@ -43,14 +43,14 @@ const Header = () => {
             <AnimatedLink key={i} title={link.linkTo} />
           ))} */}
         </Nav>
-        <CallToActions className={isOpen ? "active" : ""}>
+        {/* <CallToActions className={isOpen ? "active" : ""}>
           <Link
             href="/"
             className="bg-sky-200 font-medium hover:bg-sky-900 focus:outline-none focus:ring-1 focus:ring-green-600 focus:ring-opacity-50 transition duration-300 ease-in-out transform hover:shadow-md hover:-translate-y-1 rounded-[40px] text-white px-4 py-2"
           >
             Iniciar Sesión
           </Link>
-        </CallToActions>
+        </CallToActions> */}
       </Inner>
     </Wrapper>
   );

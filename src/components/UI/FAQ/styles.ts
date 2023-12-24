@@ -67,7 +67,7 @@ export const Question = styled(motion.div)`
 `;
 
 export const Answer = styled(motion.div)`
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 1.5rem;
 `;

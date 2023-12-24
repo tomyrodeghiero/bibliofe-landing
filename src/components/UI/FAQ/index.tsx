@@ -40,9 +40,9 @@ const FAQ = () => {
     <Wrapper>
       <Inner>
         {isMobile ? (
-          <MaskText phrases={mobileHeaderPhrase} tag="h1" />
+          <MaskText phrases={mobileHeaderPhrase} tag="h3" />
         ) : (
-          <MaskText phrases={desktopHeaderPhrase} tag="h1" />
+          <MaskText phrases={desktopHeaderPhrase} tag="h3" />
         )}
         <Accordion ref={accordionRef}>
           {faqData.map((item, index) => (

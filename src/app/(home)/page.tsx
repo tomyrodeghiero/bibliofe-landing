@@ -4,9 +4,6 @@ import {
   FinancialFuture,
   FinancilaFreedom,
   HeroSection,
-  IntroSection,
-  JoinSection,
-  OffersSection,
 } from "@/components";
 
 export default function Home() {
@@ -14,7 +11,6 @@ export default function Home() {
     <main>
       <HeroSection />
       <Featured />
-      <OffersSection />
       <FinancilaFreedom />
       <FinancialFuture />
       <FAQ />

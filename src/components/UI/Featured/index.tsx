@@ -69,8 +69,8 @@ const HorizontalScrollContainer = ({ isMobile }: any) => {
 
   const imageStyle: any = {
     borderRadius: "100%", // Esto hará que la imagen sea completamente redonda
-    width: isMobile ? "70px" : "90px",
-    height: isMobile ? "70px" : "90px",
+    width: isMobile ? "50px" : "90px",
+    height: isMobile ? "50px" : "90px",
     objectFit: "cover",
   };
 

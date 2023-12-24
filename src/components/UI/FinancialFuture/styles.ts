@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 import card_grid from "../../../../public/images/card_grid.png";
 
 export const Wrapper = styled.section`
-  padding-top: 7.75rem;
+  padding-top: 1.75rem;
   color: black;
 `;
 
@@ -19,7 +19,7 @@ export const Header = styled.header`
   flex-direction: column;
   gap: 1.5rem;
   max-width: 56rem;
-  margin-bottom: 6.25rem;
+  margin-bottom: 2.25rem;
 
   h1 {
     font-size: 4.75rem;

@@ -26,7 +26,7 @@ const MaskText = ({ phrases, tag }: { phrases: string[]; tag: string }) => {
                 initial="initial"
                 animate={isInView ? "open" : ""}
                 custom={index}
-                className="font-bold"
+                className="font-bold text-neutral-900"
               >
                 {phrase}
               </motion.h1>
@@ -36,6 +36,7 @@ const MaskText = ({ phrases, tag }: { phrases: string[]; tag: string }) => {
                 initial="initial"
                 animate={isInView ? "open" : ""}
                 custom={index}
+                className="font-bold text-white-900"
               >
                 {phrase}
               </motion.h2>
@@ -45,6 +46,7 @@ const MaskText = ({ phrases, tag }: { phrases: string[]; tag: string }) => {
                 initial="initial"
                 animate={isInView ? "open" : ""}
                 custom={index}
+                className="font-medium text-7xl h-20 text-white-900"
               >
                 {phrase}
               </motion.h3>

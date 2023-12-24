@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 import hero_background from "../../../../public/images/grid_background.png";
 
 export const Wrapper = styled.section`
-  margin-top: 6.25rem;
+  margin-top: 2.25rem;
   color: black;
 `;
 
@@ -43,6 +43,7 @@ export const HeroTextContainer = styled.div`
   gap: 1.5rem;
   padding-bottom: 2rem;
   color: black;
+  padding: 0 1rem;
 
   h1 {
     font-size: 6rem;
