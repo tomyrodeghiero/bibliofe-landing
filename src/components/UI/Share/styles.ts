@@ -19,7 +19,7 @@ export const Header = styled.header`
   flex-direction: column;
   gap: 1.5rem;
   max-width: 56rem;
-  margin-bottom: 2.25rem;
+  margin-bottom: 1.25rem;
 
   h1 {
     font-size: 4.75rem;
@@ -58,7 +58,6 @@ export const CardContainer = styled.div`
 `;
 
 export const Card = styled.div`
-  height: 41.875rem;
   border-radius: 0.75rem;
   border: 1px solid var(--stroke, rgba(255, 255, 255, 0.04));
   background: #131313;
@@ -89,7 +88,7 @@ export const TextCtn = styled.div`
   }
 
   @media (max-width: 768px) {
-    margin: 1.5rem 1.5rem 1.75rem 1.5rem;
+    margin: 1.5rem 1.5rem 1rem 1.5rem;
 
     h3 {
       font-size: 1.5rem;
@@ -187,9 +186,9 @@ export const Banner = styled.div`
   }
 
   @media (max-width: 768px) {
-    height: 31.25rem;
+    height: 14rem;
     img {
-      object-fit: contain;
+      object-fit: cover;
     }
   }
 `;

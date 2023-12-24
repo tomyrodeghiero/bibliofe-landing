@@ -2,7 +2,7 @@
 import { styled } from "styled-components";
 
 export const Wrapper = styled.section`
-  margin-top: 1.25rem;
+  margin-top: 2rem;
 
   @media (max-width: 768px) {
     margint-top: 0rem;
@@ -16,10 +16,6 @@ export const Inner = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  @media (max-width: 768px) {
-    margin-bottom: 2rem;
-  }
 `;
 
 export const Header = styled.header`
@@ -47,8 +43,6 @@ export const Header = styled.header`
   }
 
   @media (max-width: 768px) {
-    margin-bottom: 2rem;
-
     h1 {
       font-size: 2.25rem;
     }
@@ -110,6 +104,7 @@ export const Title = styled.div`
   align-items: center;
 
   h3 {
+    margin: 0;
     font-size: 1.5rem;
     font-weight: 500;
     color: #222c57;

@@ -2,18 +2,7 @@
 import Image from "next/image";
 import future_banner from "../../../../public/images/future_banner.png";
 import future_mobile_banner from "../../../../public/images/future_mobile_banner.png";
-import {
-  Wrapper,
-  Inner,
-  Header,
-  CardContainer,
-  Card,
-  TextCtn,
-  SVGCtn,
-  Stats,
-  Stat,
-  Banner,
-} from "./styles";
+import { Wrapper, Inner, Header, Banner } from "./styles";
 import MaskText from "@/components/Common/MaskText";
 import { useIsMobile } from "../../../../libs/useIsMobile";
 import {
@@ -21,10 +10,9 @@ import {
   desktopParagraphPhrase,
   mobileHeaderPhrase,
   mobileParagraphPhrase,
-  stats,
 } from "./constants";
 
-const FinancialFuture = () => {
+const Share = () => {
   const isMobile = useIsMobile();
 
   return (
@@ -76,4 +64,4 @@ const FinancialFuture = () => {
   );
 };
 
-export default FinancialFuture;
+export default Share;

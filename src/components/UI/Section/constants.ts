@@ -2,7 +2,7 @@ import ic_banknotes from "../../../../public/svgs/ic_banknotes.svg";
 import ic_circle_stack from "../../../../public/svgs/ic_circle_stack.svg";
 import ic_arrows_left_right from "../../../../public/svgs/ic_arrows_right_left.svg";
 
-export const desktopHeaderPhrase = ["Descubre Jesús, Transforma tu Vida"];
+export const desktopHeaderPhrase = ["Descubre a Jesús, Transforma tu Vida"];
 export const desktopParagraphPhrase = [
   "Creemos que el camino hacia Jesús es una jornada llena de descubrimientos y accesible para todos.",
   "Te ofrecemos una rica variedad de recursos para que profundices en tu fe y crecimiento espiritual.",
@@ -14,7 +14,7 @@ export const desktopBriefNotePhrase = [
 ];
 
 // For mobile
-export const mobileHeaderPhrase = ["Descubre Jesús, Transforma tu Vida"];
+export const mobileHeaderPhrase = ["Descubre a Jesús, Transforma tu Vida"];
 export const mobileParagraphPhrase = [
   "Creemos que el camino hacia Jesús es una",
   "jornada llena de descubrimientos. Te ofrecemos",
@@ -41,7 +41,7 @@ export const edges = [
     icon: ic_circle_stack,
   },
   {
-    point: "Compartiendo Conocimiento con Libertad",
+    point: "Compartiendo Conocimiento",
     details:
       "Intercambia sabiduría y experiencias sin limitaciones. Comparte y enriquece tu fe con otros.",
     icon: ic_arrows_left_right,
